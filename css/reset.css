@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,h1,h2,h3,h4,ul,ol,li,a,p,img{
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica","Arial",serif;
+}
+a{
+	text-decoration: none;
+	display: block;
+	color: #fff;
+}
+ul,ol,li{
+	list-style: none;
+}
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{
+	display: table-cell;
+	content: "";
+	clear: both;
+}
